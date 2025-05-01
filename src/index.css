@@ -99,3 +99,113 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Add these to index.css to enhance the Spanish theme */
+
+/* Import additional fonts that match the GCSE Spanish PDF */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+
+/* Custom Spanish lesson styles */
+.spanish-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #0052CC;
+}
+
+.spanish-normal-text {
+  font-family: 'Inter', sans-serif;
+  color: #333333;
+}
+
+.spanish-example {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+  color: #0052CC;
+}
+
+.spanish-vocab {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
+
+.spanish-vocab-spanish {
+  color: #0052CC;
+}
+
+.spanish-vocab-english {
+  color: #666666;
+}
+
+.spanish-grammar-box {
+  background-color: #F0F7FF;
+  border-left: 4px solid #0052CC;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.spanish-activity-box {
+  background-color: #FFF7EB;
+  border-left: 4px solid #FF8C00;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.spanish-code {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #F5F5F5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* Mnemonic boxes like DOCTOR/PLACE in the PDF */
+.spanish-mnemonic-container {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.spanish-mnemonic-box {
+  flex: 1;
+  background-color: #F5F5F5;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.spanish-mnemonic-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.spanish-ser-color {
+  color: #0052CC;
+}
+
+.spanish-estar-color {
+  color: #FF8C00;
+}
+
+/* Practice section styling */
+.spanish-practice-section {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #E0E0E0;
+}
+
+.spanish-practice-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #0052CC;
+  margin-bottom: 0.75rem;
+}
+
+.spanish-practice-item {
+  margin-bottom: 0.5rem;
+}
+
+/* Slide transitions */
+.spanish-slide-transition {
+  transition: all 0.3s ease-in-out;
+}
